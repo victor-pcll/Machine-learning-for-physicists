@@ -65,8 +65,8 @@ $$
 $$
 
 where:
-- $ \ell(r) $: Huber loss  
-- $ \mathcal R(w) $: L2 or L1 regularization  
+- $\ell(r)$: Huber loss  
+- $\mathcal R(w)$: L2 or L1 regularization  
 
 Goal:  
 **Understand robustness to outliers and compare classical vs. robust losses.**
@@ -92,12 +92,12 @@ Labels follow a contamination model:
 $$
 y_\mu =
 \begin{cases}
-\dfrac{x_\mu^\top w^\star}{\sqrt d} + z_{\text{in}}, & z_{\text{in}} \sim \mathcal N(0, \Delta_{\text{in}}),\ \text{with prob. } 1-\varepsilon\\[6pt]
-z_{\text{out}}\sim \mathcal N(m,\Delta_{\text{out}}), & \text{with prob. } \varepsilon
+  \dfrac{x_\mu^\top w^\star}{\sqrt d} + z_{\text{in}}, & z_{\text{in}} \sim \mathcal N(0, \Delta_{\text{in}}),\ \text{with prob. } 1-\varepsilon\\
+  z_{\text{out}}\sim \mathcal N(m,\Delta_{\text{out}}), & \text{with prob. } \varepsilon
 \end{cases}
 $$
 
-where $ w^\star_i \in \{-1, +1\} $ independently.
+where $w^\star_i \in \{-1, +1\}$ independently.
 
 Goal:  
 **Compare Huber-based ERM to the Bayes estimator obtained from posterior sampling.**

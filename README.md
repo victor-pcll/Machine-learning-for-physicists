@@ -127,14 +127,23 @@ pip install numpy scipy matplotlib pandas scikit-learn torch jax tqdm notebook
 
 ---
 
-## 🔍 Structure (Optional Suggestion)
+## 🔍 Structure 
 
 You may structure your repository as follows:
 
 ```
-/notebooks/      # Jupyter notebooks for each chapter  
-/src/            # Helper functions and utilities  
-/data/           # Datasets used during the course  
-/figures/        # Saved plots and images  
-README.md        # Course overview  
+/
+├── Homework_1/                     # Graded homework assignments
+│   ├── homework1.ipynb             # Main notebook for HW1
+│   ├── data/                       # Data files (if applicable)
+│   └── figures/                    # Generated plots
+│
+├── Series/                         # Weekly exercises and practice notebooks
+│   └── series_01.ipynb
+│   └── series_02.ipynb
+│   └── ...
+│
+├── Phys467_lecture_notes.pdf       # Official course lecture notes
+│
+└── README.md                       # Course summary and instructions
 ```
