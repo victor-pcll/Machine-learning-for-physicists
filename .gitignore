@@ -1,0 +1,93 @@
+# ============================
+#  ENVIRONNEMENTS PYTHON
+# ============================
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ============================
+#  NOTEBOOKS & CACHE IPYNB
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+#  FICHIERS DE CONFIG/CACHE
+# ============================
+*.egg-info/
+*.pytest_cache/
+*.mypy_cache/
+*.ruff_cache/
+cache/
+dist/
+build/
+
+# ============================
+#  GROS FICHIERS DE DONNÉES
+# ============================
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.jsonl
+
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+
+*.h5
+*.hdf5
+
+# ============================
+#  MODELES MACHINE LEARNING
+# ============================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+
+# ============================
+#  LOGS / SORTIES / TEMP
+# ============================
+*.log
+*.out
+*.tmp
+*.temp
+
+logs/
+outputs/
+results/
+runs/
+wandb/
+mlruns/
+
+# ============================
+#  DOSSIERS DE DONNÉES LOCALES
+# ============================
+data/
+datasets/
+raw_data/
+processed_data/
+
+# ============================
+#  FICHIERS OS
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+#  EDITOR / IDE
+# ============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
