@@ -51,7 +51,7 @@ The experiments demonstrated that the **2D Torus Embedding** significantly outpe
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/victor-pcll/Exploring-transformers-empirically](https://github.com/victor-pcll/Exploring-transformers-empirically)
+    git clone [https://github.com/victor-pcll/Machine-learning-for-physicists/tree/main/Homework%202](https://github.com/victor-pcll/Machine-learning-for-physicists/tree/main/Homework%202)
     ```
 2.  Install dependencies:
     ```bash
